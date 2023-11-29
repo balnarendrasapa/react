@@ -1,8 +1,10 @@
+import "./Header.css"
+
 const Header = () => {
 
     return (
         <>
-            <h1>Header</h1>
+            <h1 className="headerSample">Header</h1>
             <p>Some text</p>
         </>
     )
