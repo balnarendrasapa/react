@@ -1,10 +1,15 @@
 import './App.css'
+import Header from './Header'
+import Footer from './Footer'
+import Content from './Content'
 
 function App() {
 
   return (
     <>
-      <h1>App</h1>
+      <Header />
+      <Content />
+      <Footer />
     </>
   )
 }
