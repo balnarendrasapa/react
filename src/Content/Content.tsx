@@ -1,10 +1,26 @@
+import { Button, Input, Space, Col, Row } from 'antd';
+
 const Content = () => {
 
     return (
-        <>
-            <h1 className="text-3xl font-bold underline">Content</h1>
-            <p>Some text</p>
-        </>
+        <Row>
+            <Col span={6}></Col>
+            <Col span={12}>
+                <Space.Compact style={{ width: '100%' }}>
+                    <Input defaultValue="Combine input and button" />
+                    <Button type="primary" style={
+                        { 
+                            background: "#0096FF", 
+                            borderColor: "white",
+                        }
+                    }>
+                        Submit
+                    </Button>
+                </Space.Compact>
+            </Col>
+            <Col span={6}></Col>
+        </Row>
+
     )
 }
 
